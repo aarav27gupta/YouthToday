@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouthToday - Volume 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            text-align: justify;
+            position: relative;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background-color: #f5f5dc;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease-in-out;
+        }
+        .nav a:hover {
+            color: #333;
+        }
+        .image-container {
+            display: flex;            /* Aligns child elements (images) horizontally*/
+            justify-content: space-between;  /* Space between images */
+            align-items: center;      /* Vertically centers the images */
+            gap: 20px;                /* Adds some space between images, optional */
+        }
+       .image-container img {
+           width: 45%;               /* Adjust width of images as needed */
+           height: auto;             /* Keeps the aspect ratio intact */
+           object-fit: contain;      /* Ensures the image content fits properly */
+       }
+        .section {
+            padding: 50px 20px;
+             text-align: justify;
+            background-color: #fff; /* Added background for sections */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            margin-bottom: 30px; /* Added bottom margin for spacing */
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+          transform: translateY(-10px);
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .section p {
+            line-height: 1.6; /* Improved readability with line spacing */
+            font-size: 1.1em;
+        }
+        .footer {
+            background: linear-gradient(to left, #00ff7f, #008000);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .green-ribbon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to left, #00ff7f, #008000);
+            color: white;
+            text-align: left;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+        }
+        .green-ribbon img {
+            height: 40px;
+            margin-right: 10px;
+            margin-left: 0;
+        }
+        img {
+            max-width: 100%;  /* Ensures images never exceed their container's width*/
+            height: auto;     /* Maintains aspect ratio */
+            display: block;   /* Removes extra spacing below the image */
+            margin: 0 auto;   /* Centers images within their section */
+            border-radius: 5px solid #ddd; /* Optional: Adds rounded corners for aesthetics */
+            Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            width: 80%;  /* Adjust this value based on desired image size */
+            max-height: 400px; /* Prevents images from being too tall */
+            object-fit: contain; /* Ensures the entire image is visible */
+        }
+    </style>
+</head>
+<body>
+    <div class="green-ribbon">
+        <img src="Logo.png" alt="YouthToday Logo"> <!-- Replace with your actual logo path -->
+        YouthToday
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Message from the Editorial Board</h2>
+            <p>Dear readers,</p>
+            <p>Welcome to the inaugural edition of YouthToday! This newspaper is a dream brought to life by young minds eager to make a difference. At YouthToday, we aim to provide a platform for creativity, collaboration, and meaningful discourse. Every piece in this publication represents the voice of the next generation.</p> 
+            <p>In this first edition, we hope to showcase the brilliance of young artists and offer insights that can inspire and empower our younger generations. Thank you for joining us on this journey. Together, let us celebrate the power of youth and the potential of tomorrow.</p>
+            <p>Warm regards,<br>The Editorial Board</p>
+        </div>
+        <div class="section">
+            <h2>Youth Voices</h2>
+            <img src="YV.png" alt="YouthToday Logo">
+            <p>This section highlights the insights and opinions of our youth on different social topics and helps spread awareness among others.</p>
+        </div>
+        <div class="section">
+            <h2>Teenage Burnout Culture</h2>
+            <img src="TBC.png" alt="YouthToday Logo">
+            <p>"Will I be able to handle all of this? What will I do in the future?" These are the questions that tend to occupy our minds as teenagers Doubting ourselves is not uncommon, especially when we are in the midst of our educational phase.</p> 
+            <p>Life as a teenager has never been easy, as it is the time when we start to understand the world, make our own decisions, and decide what we want in life. However, in today’s world, this time has become more stressful due to evolving technologies and increasing distractions such as social media.</p> 
+            <p>Social media can be a source of comparison and unrealistic expectations. Teenagers may feel like they have to measure up to these unrealistic standards, leading to feelings of inadequacy and anxiety. Faced with this constant pressure and the weight of their ambitions, teenagers find themselves grappling with feelings of self-doubt and inadequacy.</p> 
+            <p>Behind closed doors, parental expectations loom large, casting a shadow over the fragile psyche of teenagers already burdened by the weight of their ambitions. Parents’ expectations might be well intended to see their child succeed and be happy in life but these expectations themselves contribute to the pressure, unwillingly feeding to the cycle of burnout culture.</p> 
+            <p>Breaking out of this burnout culture requires effort from teens, parents, and all those things contributing to this stress. As for teenagers, they must learn to set boundaries for themselves, prioritize the task at hand, learn to say no to things that aren’t important, and most importantly self-care and compassion should become a habit.</p>
+            <p>It's important to remember that true success is a journey, filled with ups and downs, moments of sadness, but also perfect moments of joy, happiness, and triumph. By setting boundaries, prioritizing tasks, and practicing self-care and compassion, you can break free from the cycle of burnout culture and create a healthier and more joyful environment for yourself.</p>
+            <p>So let's break free from the shackles of perfection and embrace the messy, beautiful journey of teenage life. Let's empower each other to pursue our passions, chase our dreams, and prioritize our mental health, because in the end, it's not about the position we reach in life, but the obstacles we overcome that truly measure our success.</p>
+            <p>- An article by Sudiksha Solanky</p>
+        </div>
+        <div class="section">
+            <h2>Breakdown before Breakthrough</h2>
+            <img src="BBB.png" alt="YouthToday Logo">
+            <p>As a student, and of course a teenager, I've faced my fair share of challenges. If there was one phrase to describe the entire thing - it would be "breakdown before breakthrough": a simple quote that became my life's motto.</p> 
+            <p>Each setback I've ever had ended up becoming a chance to learn, even when it felt like I was just struggling. And you know what? Despite the obstacles, I've managed to succeed. Sure, it wasn't easy. Most of the times I felt like trying wasn't even worth it. But the realisation that every breakdown paved the way for a breakthrough – a moment of triumph - reminded me of my potential after all.</p> 
+            <p>So, if you're facing a tough time right now, remember this: setbacks are temporary, but your potential is limitless. Trust me on that one. 2024 didn't start great for me, but I'm kinda getting to know myself better and slowly but surely overcoming challenges. Pretty fun to know you can change your life by simply changing your perspective of situations.</p> 
+            <p>After all, when you'll look back at yourself a year from now and realise you actually pushed through your problems, it'll be a proud moment to remember!</p>
+            <p>Setbacks are temporary, but your potential is limitless.</p>
+            <p>- An article by Naina Jhamb</p>
+        </div>
+        <div class="section">
+            <h2>Youth Artist Spotlight</h2>
+            <img src="YS.png" alt="YouthToday Logo">
+            <p>In this section we present and highlight the diverse arts of our budding young artists. We provide them with a platform to express their ideas freely.</p>
+        </div>
+        <div class="section">
+            <h2>'The Hopeful Fool' written by Manuj Sharma</h2>
+            <p>In a world so cold <br> In a world so cruel <br> In the silence walks <br> The hopeful fool</p> 
+            <p>His footsteps of joy <br> On roads paved by misery <br> The puppeteer's cruel ploy <br> Remains forever a mystery</p> 
+            <p>So he wears his boots <br> And he wears his smile <br> And through the violence walks <br> His silent mile</p>
+        </div>
+        <div class="section">
+            <h2>'Beauty' presented by Paridhi Garg</h2>
+            <img src="SK.png" alt="YouthToday Logo">
+        </div>
+        <div class="section">
+            <h2>'Lights' presented by Aarav Gupta</h2>
+        <div class="image-container">
+            <img src="AG1.png" alt="Image 1">
+            <img src="AG2.png" alt="Image 2">
+        </div>
+        </div>
+        <div class="section">
+            <h2>Our Team</h2>
+            <p>The Editorial Team: Aarav Gupta, Krishang Maheshwari and Arani</p>
+            <p>Logo Designers: Aarav Gupta and Sachi Rajput</p>
+            <p>Technical Head and Content Illustrator: Krishang Maheshwari</p>
+            <p>Media Manager: Aarav Gupta</p>
+            <p>Writers and Contributors: Naina Jhamb, Sudiksha Solanky, Manuj Sharma and Paridhi Garg</p>
+        </div>
+    </div>
+    <div class="footer">
+        YouthToday - All Rights Reserved
+    </div>
+</body>
+</html>
